@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto Linguagens Web Slider - MapaDev Week</title>
+
+        <link rel="shortcut icon" href="src/imagens/icone.png" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="src/css/estilos.css">
+        <link rel="stylesheet" href="src/css/responsivo.css">
+
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img src="./src/imagens/icone.png" alt="pokebola" class="pokebola">
+            <h1 class="titulo">MapaDev Week</h1>
+        </header>
+
+        <main class="pokemon-slider">
+            <button class="btn-seta btn-voltar" id="btn-voltar">
+                <img src="./src/imagens/seta.png" alt="seta-voltar">
+            </button>
+
+            <ul class="lista-pokemons">
+
+                <li class="cartao selecionado" id="html5">
+                    <div class="informacoes">
+                        <h2 class="nome">Html5</h2>
+                        <p class="vida">⭐✰✰</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="./src/imagens/html5.png" alt="pikachu" class="imagem-pokemon">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">
+                            HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação CSS ou a funcionalidade/comportamento JavaScript de uma página da web.
+
+                            "Hipertexto" refere-se aos links que conectam páginas da Web entre si, seja dentro de um único site ou entre sites. Links são um aspecto fundamental da web. Ao carregar conteúdo na Internet e vinculá-lo a páginas criadas por outras pessoas, você se torna um participante ativo na world wide web.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="cartao" id="css3">
+                    <div class="informacoes">
+                        <h2 class="nome">Css3</h2>
+                        <p class="vida">⭐⭐✰</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="./src/imagens/css3.png" alt="charizard" class="imagem-pokemon">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">
+                            CSS é a sigla para Cascading Style Sheets, ou seja, Folhas de Estilo em Cascatas. É uma maneira de dar estilo ao código criado por linguagens como HTML, XML ou XHTML, por exemplo. De forma prática, ela funciona como uma camada de personalização ao conteúdo visível.
+
+                            Estes tipos de linguagem citados foram idealizados para serem funcionais e, por serem de marcação, precisaram ser aperfeiçoados. Ele foi criado porque o HTML não era capaz de compreender todas as necessidades que um programador tinha para criar padrões de formatação nas páginas. O CSS, no caso, veio como uma boa solução para aprimorar a estética dos sites.
+                            
+                            Por meio dele, é possível separar formatos de conteúdos, bem como definir como serão exibidos em cada página.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="cartao" id="js">
+                    <div class="informacoes">
+                        <h2 class="nome">JavaScript</h2>
+                        <p class="vida">⭐⭐⭐</p>
+                    </div>
+
+                    <div class="container-imagem">
+                        <img src="./src/imagens/javascript.png" alt="mewtwo" class="imagem-pokemon">
+                    </div>
+
+                    <div class="descricao">
+                        <h3 class="titulo">Descrição</h3>
+                        <p class="texto">
+                            JavaScript, frequentemente abreviado como JS, é uma linguagem de programação leve, interpretada e orientada a objetos com funções de primeira classe, conhecida como a linguagem de scripting para páginas Web, mas também utilizada em muitos ambientes fora dos navegadores. Ela é uma linguagem de scripting baseada em protótipos, multi-paradigma e dinâmica, suportando os estilos orientado a objetos, imperativo e funcional.
+
+                            JavaScript roda no client side da web, o que pode ser usado para projetar / programar o comportamento de uma página web a partir da ocorrência de um evento. JavaScript é uma linguagem fácil de se aprender mas que também é poderosa, sendo amplamente utilizada para controlar o comportamento de páginas web.
+                        </p>
+                    </div>
+                </li>
+
+            </ul>
+
+            <button class="btn-seta">
+                <img src="./src/imagens/seta.png" alt="seta-avançar" id="btn-avancar">
+            </button>
+        </main>
+
+        <script src="./src/js/index.js"></script>
+    </body>
+</html>
